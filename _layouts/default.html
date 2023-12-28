@@ -1,13 +1,23 @@
+---
+layout: compress
+---
+
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galdeano&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/assets/css/styles.css">
 
   </head>
   <body>
     {% include navigation.html %}
     {{ content }}
+    {% include aboutme.html %}
   </body>
 </html>
