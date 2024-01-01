@@ -4,9 +4,19 @@
   margin: 0;
 }
 
+body  {
+  margin: 0;
+}
+
+.celticBlue-text {
+  color: #0A369D;
+}
+
 nav {
+  margin: 0 auto;
   margin-top: 3%;
-  margin-left: 20%;
+  max-width: 970px;
+  
 }
 
 nav a {
@@ -56,6 +66,8 @@ h6, p {
 }
 
 
+
+
 @media (max-width: 996px) {
   // .container {
   //     max-width: 970px;
@@ -76,10 +88,110 @@ article h2 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.p-intro {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 39px */ 
+  text-align: left;
+  max-width: 780px;
+  margin-left: 9%;
 }
 
 
 
-.current {
-    color: green;
-  }
+// .current {
+//     color: green;
+//   }
+
+// SKILLS SECTION
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+
+#skills .col-4 {
+  padding-left: 10%;
+}
+
+.col-8 {
+  width: 56.66%;
+  float: left;
+}
+
+#skills .col-8 {
+  padding-top: 7%;
+}
+
+
+
+h3 {
+  color: #DDDCDC;
+  font-family: Galdeano;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#skills ul li {
+  margin: 0;
+}
+
+#skills ul li {
+  color: #000;
+  font-family: Galdeano;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+}
+
+
+// CONTACT SECTION
+
+.buttons-wrrapper {
+  margin: 0 auto;
+  max-width: 970px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buttons-wrrapper a {
+  padding: 0 2%;
+  text-decoration: none;
+}
+
+
+// FOOTER SECTION
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  background-color: #000;
+  margin: 0;
+}
+
+footer p-footer {
+  color: white;
+  color: #323232;
+  font-family: Galdeano;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  margin: 0;
+  padding: 10px 0;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+}

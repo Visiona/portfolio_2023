@@ -1,13 +1,13 @@
 - name: About me
   link: '#about'
 - name: Work
-  link: /#work
-- name: Projects
-  link: /#projects
+  link: '#work'
+# - name: Projects
+#   link: '#projects'
 - name: Skills
-  link: /#skills
+  link: '#skills'
 - name: Contact
-  link: /#contact
+  link: '#contact'
 # - name: Home
 #   link: /
 # - name: About
