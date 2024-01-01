@@ -168,7 +168,26 @@ h3 {
 .buttons-wrrapper a {
   padding: 0 2%;
   text-decoration: none;
+  transition: .3s;
 }
+
+.buttons-wrrapper a svg path {
+  transition: .3s;
+}
+
+.buttons-wrrapper a.btn-linkin:hover svg path {
+  fill: #0077B5;
+}
+
+.buttons-wrrapper a.btn-git:hover svg path {
+  fill: #000;
+}
+
+.buttons-wrrapper a.btn-mail:hover svg path {
+  fill: #0078D4;
+}
+
+
 
 
 // FOOTER SECTION
@@ -194,4 +213,10 @@ footer .p-footer {
 footer p a {
   color: white;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: .3s;
+}
+
+footer p a:hover {
+  border-bottom: 1px solid white;
 }
