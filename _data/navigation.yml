@@ -2,8 +2,8 @@
   link: '#about'
 - name: Work
   link: '#work'
-# - name: Projects
-#   link: '#projects'
+- name: Projects
+  link: '#projects'
 - name: Skills
   link: '#skills'
 - name: Contact
